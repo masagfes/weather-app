@@ -1,19 +1,19 @@
 {
-  "publicPath": "/wether-app/_nuxt/",
+  "publicPath": "/weather-app/_nuxt/",
   "all": [
     "../server/index.spa.html",
     "44127186425eb5160688.js",
-    "5b9b374f60380c5d918a.js",
+    "5503f92c58d1ac9293e3.js",
     "761a5ce0328310c2be2b.js",
     "7785e8274c0e6fbbfdfd.js",
     "LICENSES",
-    "ed9643febf64eaca0d38.js"
+    "b74ccb10309bb505c3e5.js"
   ],
   "initial": [
-    "ed9643febf64eaca0d38.js",
+    "b74ccb10309bb505c3e5.js",
     "44127186425eb5160688.js",
     "761a5ce0328310c2be2b.js",
-    "5b9b374f60380c5d918a.js"
+    "5503f92c58d1ac9293e3.js"
   ],
   "async": [
     "7785e8274c0e6fbbfdfd.js"
@@ -1180,9 +1180,9 @@
   },
   "assetsMapping": {
     "44127186425eb5160688.js": "0859c165",
-    "5b9b374f60380c5d918a.js": "1a3ae26b",
+    "5503f92c58d1ac9293e3.js": "1a3ae26b",
     "761a5ce0328310c2be2b.js": "7ea1d828",
     "7785e8274c0e6fbbfdfd.js": "3cdf16e1",
-    "ed9643febf64eaca0d38.js": "6fca0322"
+    "b74ccb10309bb505c3e5.js": "6fca0322"
   }
 }
