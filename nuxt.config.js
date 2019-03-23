@@ -1,8 +1,18 @@
 import pkg from './package'
 
+// `DEPLOY_ENV` が `GH_PAGES` の場合のみ `router.base = '/<repository-name>/'` を追加する
+const routerBase =
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? {
+        router: {
+          base: '/wether-app/'
+        }
+      }
+    : {}
+
 export default {
   mode: 'spa',
-
+  ...routerBase,
   /*
    ** Headers of the page
    */
